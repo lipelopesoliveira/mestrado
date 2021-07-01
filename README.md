@@ -2,7 +2,7 @@
 
 Dissertação de Mestrado apresentada ao Programa de Pós-Graduação em Química (PGQu), do Instituto de Química da Universidade Federal do Rio de Janeiro, como parte dos requisitos necessários à obtenção do título de Mestre em Ciências (Química).
 
-## Rsumo
+## Resumo
 
 A vida como conhecemos é totalmente baseada em compostos que são formados estruturalmente por átomos de carbono. A diversidade estrutural resultante dos diferentes tipos de ligações que o carbono pode fazer e sua capacidade de formar ligações químicas fortes e estáveis com outros átomos de carbono resulta em uma miríade de moléculas e materiais. O controle correto dessas ligações resulta em aplicações tecnológicas que vão desde o desenvolvimento de novas moléculas bioativas, como fármacos, até a produção novos materiais sintéticos. 	
 
