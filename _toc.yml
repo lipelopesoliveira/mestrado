@@ -7,6 +7,6 @@
     - file: capitulos/intro/rev_biblio.md
     - file: capitulos/intro/objetivos.md
     - file: capitulos/intro/metodologia.md
-    - file: capitulos/intro/conclusao.md
     - file: capitulos/results0/valida.md
+    - file: capitulos/intro/conclusao.md
     - file: bibliography.md
