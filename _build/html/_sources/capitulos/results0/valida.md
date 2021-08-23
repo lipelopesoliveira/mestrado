@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# Resultados 1: Validação Metodológica dos Cálculos
+# Validação Metodológica dos Cálculos
 
 ## Introdução
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Resultados 1: Validação Metodológica dos Cálculos
+# # Validação Metodológica dos Cálculos
 # 
 # ## Introdução
 # 

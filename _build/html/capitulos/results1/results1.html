@@ -1,0 +1,566 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novos Alótropos de Carbono: Spiro-Carbon &#8212; Estudo de novos alótropos de carbono por Teoria do Funcional da Densidade</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Novos Alótropos de Carbono: ABF-Carbon" href="../results2/results2.html" />
+    <link rel="prev" title="Validação Metodológica dos Cálculos" href="../results0/valida.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Estudo de novos alótropos de carbono por Teoria do Funcional da Densidade</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   Estudo de novos alótropos de carbono por Teoria do Funcional da Densidade
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/intro.html">
+   Introdução
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/rev_biblio.html">
+   Revisão Bibliográfica
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/objetivos.html">
+   Objetivos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/metodologia.html">
+   Metodologia
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../results0/valida.html">
+   Validação Metodológica dos Cálculos
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Novos Alótropos de Carbono: Spiro-Carbon
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../results2/results2.html">
+   Novos Alótropos de Carbono: ABF-Carbon
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../results3/results3.html">
+   Gerando novos alótropos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/conclusao.html">
+   Conclusão
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../bibliography.html">
+   Bibliografia
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="../../_sources/capitulos/results1/results1.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/capitulos/results1/results1.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/lipelopesoliveira/mestrado"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/lipelopesoliveira/mestrado/issues/new?title=Issue%20on%20page%20%2Fcapitulos/results1/results1.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/lipelopesoliveira/mestrado/master?urlpath=lab/tree/docs/capitulos/results1/results1.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#spiro-carbon">
+   Spiro-Carbon
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estrutura">
+     Estrutura
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estabilidade-relativa-e-propriedades-mecanica">
+     Estabilidade Relativa e Propriedades Mecânica
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#propriedades-eletronicas">
+     Propriedades Eletrônicas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#possiveis-abordagens-sinteticas">
+     Possíveis abordagens sintéticas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#spiro-carbon-como-um-material-microporoso">
+     Spiro-carbon como um material microporoso
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conclusoes">
+     Conclusões
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="novos-alotropos-de-carbono-spiro-carbon">
+<h1>Novos Alótropos de Carbono: Spiro-Carbon<a class="headerlink" href="#novos-alotropos-de-carbono-spiro-carbon" title="Permalink to this headline">¶</a></h1>
+<div class="figure align-default">
+<img alt="../../_images/Spiro-GIF2.gif" src="../../_images/Spiro-GIF2.gif" />
+</div>
+<div class="section" id="spiro-carbon">
+<h2>Spiro-Carbon<a class="headerlink" href="#spiro-carbon" title="Permalink to this headline">¶</a></h2>
+<p>Em um trabalho desenvolvido pelo nosso grupo anteriormente ao desenvolvimento desta dissertação, foi explorada a existência de uma nova família de alótropos de carbono, denominada <em>n</em>-diamantinos, sendo relatada em artigo publicado em 2018 <span id="id1">[<a class="reference internal" href="../../bibliography.html#id65"><span>CHO+18</span></a>]</span>. Esta família descreve uma generalização do conceito de formação de novas estruturas de carbono através da inserção de <em>n</em> derivados de acetileno entre os átomos de carbono.</p>
+<p>Se considerarmos que um dos membros desta família, o 1-diamantino que também relatado na literatura como Y-Carbon <span id="id2">[<a class="reference internal" href="../../bibliography.html#id74"><span>JK12</span></a>]</span>, poderia sofrer um rearranjo entre as ligações triplas vicinais (com mostrado na <a class="reference internal" href="#soliton"><span class="std std-numref">Fig. 7</span></a>),o  resultado seria a formação de dois anéis de três membros perpendiculares compartilhando um átomo de carbono entre si, um motivo estrutural conhecido como <em>spiro</em>. Esse motivo estrutural resultante estaria conectado por ligações químicas formando uma estrutura periódica.</p>
+<div class="figure align-default" id="soliton">
+<img alt="../../_images/estrutura_1diamantino-spiro.svg" src="../../_images/estrutura_1diamantino-spiro.svg" /><p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Rearranjo das cadeias geminais do 1-diamantino para formar um novo alótropo de carbono com o motivo estrutural <em>spiro</em>.</span><a class="headerlink" href="#soliton" title="Permalink to this image">¶</a></p>
+</div>
+<p>A síntese composto molecular que apresenta o motivo estrutural que forma esta estrutura, o spiropentadieno, já foi relatada na literatura em 1991 por Billupes e Haley <span id="id3">[<a class="reference internal" href="../../bibliography.html#id58"><span>BH91</span></a>]</span>.<a class="footnote-reference brackets" href="#footnote1" id="id4">1</a> Além disso, algumas variações estruturais dessa molécula já apresentaram propriedades interessantes. Ela já foi explorada, por exemplo, para propor um hidrocarboneto que poderia violar o paradigma químico de mais de 150 anos de que um átomo de carbono tetravalente e tetra-coordenado deve assumir um arranjo estrutural tetraédrico <span id="id5">[<a class="reference internal" href="../../bibliography.html#id66"><span>EFCorrea05</span></a>]</span>.</p>
+<p>No spiropentadieno neutro, dois anéis de três membros estão ortogonais entre sí, o que faz dessa molécula uma espécie tetraedro esticado. Dessa forma, poderíamos ligar esses tetraedros de uma maneira análoga à ligação dos átomos de carbono no diamante, gerando assim a estrutura de um novo alótropo de carbono.</p>
+<div class="section" id="estrutura">
+<h3>Estrutura<a class="headerlink" href="#estrutura" title="Permalink to this headline">¶</a></h3>
+<p>A estrutura desse novo alótropo de carbono, denominada de Spiro-Carbon, contém 10 átomos em uma célula unitária primitiva tetragonal de corpo centrado, apresentando grupo espacial <span class="math notranslate nohighlight">\(I4_1/amd\)</span> (#141) e grupo pontual <span class="math notranslate nohighlight">\(D_{4h}\)</span>. A geometria resultante da otimização estrutural apresenta os parâmetros de célula <em>a</em> = <em>b</em> = 5.122 Å, <em>c</em> = 13.126 Å e <span class="math notranslate nohighlight">\(\alpha\)</span> = <span class="math notranslate nohighlight">\(\beta\)</span> = <span class="math notranslate nohighlight">\(\gamma\)</span> = 90<span class="math notranslate nohighlight">\(^\circ\)</span>, apresentando densidade de 1.16 g/cm<span class="math notranslate nohighlight">\(^3\)</span>. Representações da célula unitária vista por pelos diferentes vetores de célula são mostradas na <a class="reference internal" href="#estrutura-spiro"><span class="std std-numref">Fig. 8</span></a>.</p>
+<div class="figure align-default" id="estrutura-spiro">
+<img alt="../../_images/estrutura_spiro.svg" src="../../_images/estrutura_spiro.svg" /><p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Representação atômica da estrutura tetragonal do Spiro-Carbon ao longo dos eixos <span class="math notranslate nohighlight">\(a\)</span>, <span class="math notranslate nohighlight">\(b\)</span> e <span class="math notranslate nohighlight">\(c\)</span> (<strong>a)</strong> - <strong>c)</strong>). <strong>d)</strong> Representação atômica da estrutura tetragonal do Spiro-Carbon. Por simplicidade é mostrado a célula tetragonal simples, contendo duas fórmulas unitárias por cela. Essa simplificação ajuda no entendimento da estrutura de forma mais intuitiva. <strong>e)</strong> célula primitiva tetragonal de corpo centrado.</span><a class="headerlink" href="#estrutura-spiro" title="Permalink to this image">¶</a></p>
+</div>
+<p>Baseado nos elementos de simetria apresentados pelo Spiro-Carbon, os dois átomos não equivalentes ocupam as posições de Wyckoff <em>4a</em> e <em>16h</em>, estando <strong>C1</strong> (destacado em verde) no sítio <em>4a</em> com coordenadas fracionárias (0, 0, 0) e <strong>C2</strong> (destacado em amarelo) no sítio <em>16h</em>, com coordenadas fracionárias (0.00000,  0.13609,  0.09971). Analisando a estrutura otimizada é possível distinguir três diferentes tipos de ligação, como representado na <a class="reference internal" href="#estrutura-spiro"><span class="std std-numref">Fig. 8</span></a>}-d): <em>i)</em>} As ligações conectando o carbono <span class="math notranslate nohighlight">\(sp^3\)</span> central aos seus vizinhos (C1-C2), com comprimento de 1.482 Å, similar às ligações equivalentes na estrutura de seu análogo molecular spiropentadieno<a class="footnote-reference brackets" href="#footnote2" id="id6">2</a> (que apresenta 1.483 Å) e apresentando comprimento compatível com ligações C-C simples; <em>ii)</em> as ligações entre os átomos de carbono <span class="math notranslate nohighlight">\(sp^2\)</span> (C2-C2) com comprimento de ligação de 1.394 Å, consideravelmente maior do que a ligação correspondente no spiropentadieno (1.31 Å) e apresentando um caráter intermediário entre ligações simples e duplas, algo típico de ligações duplas conjugadas <span id="id7">[<a class="reference internal" href="../../bibliography.html#id60"><span>LJ62</span></a>]</span>; <strong>iii)</strong> as ligações que conectam os motivos estruturais <em>spiro</em> para formar a estrutura polimérica (C2=C2), com comprimento de ligação de 1.342 Å, característico de ligações duplas C=C <span id="id8">[<a class="reference internal" href="../../bibliography.html#id59"><span>Zav03</span></a>,<a class="reference internal" href="../../bibliography.html#id60"><span>LJ62</span></a>]</span>.</p>
+<p>Os ângulos entre os anéis de três membros na porção <em>spiro</em>são de 90<span class="math notranslate nohighlight">\(^\circ\)</span>, mesmo de seu análogo molecular. Os ângulos internos são 62<span class="math notranslate nohighlight">\(^\circ\)</span> (C1-C2-C2 e C2-C2-C1) e 56<span class="math notranslate nohighlight">\(^\circ\)</span> (C2-C1-C2), levemente diferentes dos apresentados pelo análogo molecular, 63.6<span class="math notranslate nohighlight">\(^\circ\)</span> e 52.8<span class="math notranslate nohighlight">\(^\circ\)</span> respectivamente. Essa pequena diferença pode ser explicada pelo aumento do comprimentos das ligações endo-anulares (C2-C2), decorrente da formação da estrutura periódica, de forma a aliviar a tensão anular.</p>
+<p>Essa modificação nos comprimentos e ângulos de ligação na porção <em>spiro</em>, que resulta da formação da ligação dupla exo-anular em vez da endo-anular como no composto molecular, contribui para uma redução da tensão de anel nesta porção da estrutura e promove um aumento da estabilidade estrutural da forma cristalina. Além disso, essa modificação no perfil das ligações químicas pode gerar consequências interessantes na estrutura eletrônica desse novo alótropo de carbono, como será explorado posteriormente.</p>
+<p>Uma forma interessante de visualizar a estrutura do Spiro-Carbon é imaginar esse alótropo como sendo um arranjo perpendicular de fios condutores de <em>cis</em>-(poli)acetileno “unidos” por átomos de carbono <span class="math notranslate nohighlight">\(sp^3\)</span>, como apresentado na <a class="reference internal" href="#spiro-fios"><span class="std std-numref">Fig. 9</span></a>.</p>
+<div class="figure align-default" id="spiro-fios">
+<img alt="../../_images/column5.png" src="../../_images/column5.png" />
+<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">Representação esquemática do Spiro-Carbon, destacando seu caráter análogo a fios condutores de <em>cis</em>-(poli)acetileno “unidos” por átomos de carbono <span class="math notranslate nohighlight">\(sp^3\)</span>.</span><a class="headerlink" href="#spiro-fios" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="estabilidade-relativa-e-propriedades-mecanica">
+<h3>Estabilidade Relativa e Propriedades Mecânica<a class="headerlink" href="#estabilidade-relativa-e-propriedades-mecanica" title="Permalink to this headline">¶</a></h3>
+<p>Para investigar a estabilidade relativa da nova estrutura proposta, foi calculada a dispersão de fônons ao longo de um caminho entre pontos de alta simetria na primeira zona de Brillouin <span id="id9">[<a class="reference internal" href="../../bibliography.html#id76"><span>BC10</span></a>]</span>. Como pode ser observado na <a class="reference internal" href="#phdos-eos"><span class="std std-numref">Fig. 10</span></a>-a, nenhuma frequência imaginária foi encontrada, confirmando que a estrutura do Spiro-Carbon corresponde a um mínimo na superfície de energia potencial.</p>
+<div class="figure align-default" id="phdos-eos">
+<img alt="../../_images/phDOS_EoS.svg" src="../../_images/phDOS_EoS.svg" /><p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">Gráfico da dispersão de fônons ao longo de alguns pontos de alta simetria na primeira zona de Brillouin e a correspondente densidade de estados vibracionais (VDOS). Inserto: Caminho através dos pontos de alta simetria da primeira zona de Brillouin. b) Energia coesiva por átomo em função do volume (<span class="math notranslate nohighlight">\(E_c(V)\)</span>) por átomo para diferentes alótropos de carbono. do Spiro-Carbon</span><a class="headerlink" href="#phdos-eos" title="Permalink to this image">¶</a></p>
+</div>
+<p>Para aprofundar o entendimento sobre a estabilidade termodinâmica relativa do Spiro-Carbon, a <a class="reference internal" href="#phdos-eos"><span class="std std-numref">Fig. 10</span></a>-b mostra a variação da energia coesiva em função do volume (ambos por átomo) para diferentes alótropos de carbono. Como esperado, a curva <span class="math notranslate nohighlight">\(E_c(V)\)</span> para o Spiro-Carbon apresenta claramente um mínimo correspondente ao estado meta estável desta estrutura com menor energia coesiva do que o grafite e o diamante. Apesar disso, o Spiro-Carbon se mostrou mais estável do que outros alótropos de carbono 3D (exceto, é claro, diamante e grafite), como o 1-diamantino/Y-Carbon <span id="id10">[<a class="reference internal" href="../../bibliography.html#id65"><span>CHO+18</span></a>,<a class="reference internal" href="../../bibliography.html#id55"><span>LTD+14</span></a>]</span>, por aproximadamente 2.3 kcal/mol (0.1 eV) por átomo e o T-Carbon <span id="id11">[<a class="reference internal" href="../../bibliography.html#id54"><span>SYY+11</span></a>]</span> por aproximadamente 6.1 kcal/mol (0.26 eV), como mostrado na <a class="reference internal" href="#energy"><span class="std std-numref">Table 4</span></a>. Esse fato é especialmente encorajador, considerando que recentemente a síntese do T-Carbon foi reportada por Zhang <em>et al.</em> <span id="id12">[<a class="reference internal" href="../../bibliography.html#id75"><span>ZWZ+17</span></a>]</span>, utilizando uma suspensão em metanol de nanotubos de carbono <em>multi-wall</em> irradiados com laser pulsado em picosegundos.</p>
+<table class="table" id="energy">
+<caption><span class="caption-number">Table 4 </span><span class="caption-text">Módulo das energias relativa e coesiva por átomo para o Spiro-Carbon comparado com diferentes alótropos de carbono.</span><a class="headerlink" href="#energy" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Estrutura</p></th>
+<th class="head"><p>Energia Relativa (ev/átomo)</p></th>
+<th class="head"><p>Energia Relativa (kcal/mol/átom)</p></th>
+<th class="head"><p>Energia Coesiva (ev/átomo)</p></th>
+<th class="head"><p>Energia Coesiva (kcal/mol/átomo)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Grafite</p></td>
+<td><p>0.000</p></td>
+<td><p>0.00</p></td>
+<td><p>7.856</p></td>
+<td><p>181.16</p></td>
+</tr>
+<tr class="row-odd"><td><p>Diamante</p></td>
+<td><p>0.112</p></td>
+<td><p>2.57</p></td>
+<td><p>7.744</p></td>
+<td><p>178.59</p></td>
+</tr>
+<tr class="row-even"><td><p>Spiro-Carbon</p></td>
+<td><p>1.079</p></td>
+<td><p>24.88</p></td>
+<td><p>6.777</p></td>
+<td><p>156.29</p></td>
+</tr>
+<tr class="row-odd"><td><p>Carbino</p></td>
+<td><p>1.106</p></td>
+<td><p>25.50</p></td>
+<td><p>6.750</p></td>
+<td><p>155.67</p></td>
+</tr>
+<tr class="row-even"><td><p>Y Carbon</p></td>
+<td><p>1.189</p></td>
+<td><p>27.41</p></td>
+<td><p>6.667</p></td>
+<td><p>153.75</p></td>
+</tr>
+<tr class="row-odd"><td><p>Y-II Carbon</p></td>
+<td><p>1.177</p></td>
+<td><p>27.15</p></td>
+<td><p>6.679</p></td>
+<td><p>154.01</p></td>
+</tr>
+<tr class="row-even"><td><p>T Carbon</p></td>
+<td><p>1.342</p></td>
+<td><p>30.94</p></td>
+<td><p>6.514</p></td>
+<td><p>150.22</p></td>
+</tr>
+<tr class="row-odd"><td><p>T-II Carbon</p></td>
+<td><p>1.554</p></td>
+<td><p>35.84</p></td>
+<td><p>6.302</p></td>
+<td><p>145.32</p></td>
+</tr>
+</tbody>
+</table>
+<p>Avaliando agora a estabilidade mecânica da nova estrutura proposta, as seis constantes elásticas (<span class="math notranslate nohighlight">\(\textbf{C}_{ij}\)</span> em GPa) foram calculadas e são apresentadas na <code class="xref std std-numref docutils literal notranslate"><span class="pre">elastic</span></code>.</p>
+<p>As quatro condições necessárias e suficientes que devem ser satisfeitas, baseadas nos critérios de estabilidade de Born <span id="id13">[<a class="reference internal" href="../../bibliography.html#id68"><span>Bor40</span></a>]</span>, para garantir a estabilidade mecânica para uma rede tetragonal são:</p>
+<div class="math notranslate nohighlight">
+\[
+	C_{11} &gt; |C_{12}|, \quad 2C_{13} &lt; C_{33} (C_{11} + C_{12}),
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+	C_{44} &gt; 0, \quad C_{66} &gt; 0
+\]</div>
+<p>É possível verificar que todas elas são completamente satisfeitas. Adicionalmente, é pode-se examinar outros critérios que devem ser satisfeitos <span id="id14">[<a class="reference internal" href="../../bibliography.html#id67"><span>MC14</span></a>]</span>:</p>
+<ol class="simple">
+<li><p>A matriz <strong>C</strong> é positiva definida <a class="footnote-reference brackets" href="#footnote3" id="id15">3</a> ;</p></li>
+<li><p>Todos os autovalores de <strong>C</strong> são positivos;</p></li>
+<li><p>Todos os menores principais de <strong>C</strong> <a class="footnote-reference brackets" href="#footnote4" id="id16">4</a> são positivos (critério de Sylvester);</p></li>
+<li><p>Um conjunto arbitrário de menores de <strong>C</strong> são positivos.</p></li>
+</ol>
+<p>Todos esses critérios são satisfeitos pelo Spiro-Carbon, dessa forma podemos concluir que essa nova estrutura proposta é mecanicamente estável.</p>
+<p>Para caracterizar o comportamento mecânico no regime elástico desta nova estrutura, uma análise tensorial completa da matriz elástica foi conduzida. Os valores médios das principais propriedades mecânicas foram calculadas segundo três diferentes métodos de aproximação e são apresentadas na <code class="xref std std-numref docutils literal notranslate"><span class="pre">average_elastic</span></code>.</p>
+<div class="figure align-default" id="elastic-m">
+<img alt="../../_images/Elastic.svg" src="../../_images/Elastic.svg" /><p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">Dependência espacial do (a) módulo de Young; (b) compressibilidade linear; (c) módulo Shear e (d) razão de Poisson.</span><a class="headerlink" href="#elastic-m" title="Permalink to this image">¶</a></p>
+</div>
+<p>A <a class="reference internal" href="#elastic-m"><span class="std std-numref">Fig. 11</span></a> mostra os gráficos da dependência espacial nos planos <strong>xy</strong>, <strong>xz</strong> e <strong>yz</strong> para os módulos de Young (<em>E</em>) e shear (<strong>G</strong>), compressibilidade linear  (<span class="math notranslate nohighlight">\(\beta\)</span>) e razão de Poisson (<span class="math notranslate nohighlight">\(\nu\)</span>). A principal característica que podemos destacar é a grande anisotropia no plano <strong>xy</strong> para todas as propriedades, exceto a compressibilidade linear. Essa característica é comum para materiais porosos <span id="id17">[<a class="reference internal" href="../../bibliography.html#id69"><span>OBFC12</span></a>]</span> e pode ser um grande indicativo de que o Spiro-Carbon, quando sintetizado, se apresentará como um material altamente dúctil.</p>
+<p>A anisotropia do módulo de Young, caracterizada pela razão A<sub>E</sub> = E<sub>max</sub>/E<sub>min</sub> é de 19.58. Os valores máximos dessa propriedade coincidem com as direções dos eixos <strong>x</strong>, <strong>y</strong> e <strong>z</strong>, exibindo valor máximo de 274.78 GPa nessas direções. Em todas as outras direções do plano <strong>xy</strong> os valores apresentados são excepcionalmente baixos, possuindo valore mínimo de 14.03 GPa. O módulo de cisalhamento, também conhecido como módulo de rigidez ou módulo de torção, também apresenta a mesma tendência, possuindo alta anisotropia, A<sub>G</sub> = 29.98, mas com seus valores máximos nas direções diagonais aos planos <strong>xy</strong>, <strong>xz</strong> e <strong>yz</strong>. Os valores médios de todas as propriedades calculadas são apresentadas na <code class="xref std std-numref docutils literal notranslate"><span class="pre">average_elastic</span></code>.</p>
+<p>Uma boa maneira de avaliar a dureza que o material policristalino poderia ter é utilizando o modelo empírico de Chen <em>et al.</em> <span id="id18">[<a class="reference internal" href="../../bibliography.html#id70"><span>CNLL11</span></a>]</span>. Utilizando esse modelo, a dureza de Vicker obtida para o Spiro-Carbon é de 4.37 GPa (446 HV) <a class="footnote-reference brackets" href="#footnote5" id="id19">5</a> valor muito mais baixo do que o para o diamante (90,9 GPa, 9266 HV) porém acima do apresentado pelo T-Carbon (1,89 GPa, 193 HV). Esse baixo valor de dureza indica que, uma vez sintetizado, esse material irá pertencer à classe de materiais maleáveis, uma característica interessante considerando a demanda crescente pelo desenvolvimento de materiais condutores e maleáveis <span id="id20">[<a class="reference internal" href="../../bibliography.html#id71"><span>KR08</span></a>,<a class="reference internal" href="../../bibliography.html#id194"><span>VBB+17</span></a>,<a class="reference internal" href="../../bibliography.html#id195"><span>GC17</span></a>]</span>.</p>
+</div>
+<div class="section" id="propriedades-eletronicas">
+<h3>Propriedades Eletrônicas<a class="headerlink" href="#propriedades-eletronicas" title="Permalink to this headline">¶</a></h3>
+<p>Como mencionado anteriormente, a estrutura do Spiro-Carbon se assemelha a um conjunto cadeias de <em>trans-cisoide</em>-(poli)acetileno nos eixos <em>x</em> e <em>y</em> interconectados por átomos de carbono com hibridação <span class="math notranslate nohighlight">\(sp^3\)</span>. Uma vez que a cadeia de <em>trans-cisoide</em>-(poli)acetileno isolada é um semi-condutor com <em>band gap</em> de aproximadamente 1.3 eV <span id="id21">[<a class="reference internal" href="../../bibliography.html#id111"><span>BBC+82</span></a>]</span>, seria razoável imaginar que a estrutura eletrônica do Spiro-Carbon herdasse essa característica. Curiosamente ao analisar o diagrama de bandas, apresentado na <a class="reference internal" href="#band1"><span class="std std-numref">Fig. 12</span></a>, é possível observar que o Spiro-Carbon apresenta um caráter eletrônico metálico, devido à interseção entre as bandas de condução e de valência abaixo do nível de Fermi próximo ao ponto Z da zona de Brillouin.</p>
+<div class="figure align-default" id="band1">
+<img alt="../../_images/bands_smearing.svg" src="../../_images/bands_smearing.svg" /><p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text">Dispersão de energia das bandas ao longo dos principais pontos de alta simetria na primeira zona de Brillouin (esquerda) e densidade de estados projetada nos orbitais (direita) para o Spiro-Carbon. A energia de Fermi (<span class="math notranslate nohighlight">\(\epsilon_f\)</span>) foi ajustada para 0.</span><a class="headerlink" href="#band1" title="Permalink to this image">¶</a></p>
+</div>
+<p>A <a class="reference internal" href="#pdos-byatom"><span class="std std-numref">Fig. 13</span></a> apresenta a densidade de estados projetada (pDOS) referente a cada átomo que compõe a célula primitiva. É possível observar que o átomo <strong>C2</strong>, com hibridação <span class="math notranslate nohighlight">\(sp^2\)</span> é o único que apresenta contribuição para a densidade de estados próxima do nível de Fermi. Isso pode ser um forte indicativo de que as ligações duplas conjugadas formadas por esses átomos sejam as principais responsáveis pelo caráter metálico deste material.</p>
+<div class="figure align-default" id="pdos-byatom">
+<img alt="../../_images/pdos_byatom.svg" src="../../_images/pdos_byatom.svg" /><p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text">Densidade de estados projetada para cada átomo da célula primitiva. Em cima para o átomo <strong>C1</strong> e em baixo para o átomo <strong>C2</strong>. A energia de Fermi (<span class="math notranslate nohighlight">\(\epsilon_f\)</span>) foi ajustada para 0.</span><a class="headerlink" href="#pdos-byatom" title="Permalink to this image">¶</a></p>
+</div>
+<p>É apresentado na literatura que a cadeia de <em>trans-</em>(poli)acetileno seria condutora se todas as ligações entre os átomos de carbono tivessem o mesmo comprimento, de 1.391 Å, gerando assim uma cadeia infinita de ligações <span class="math notranslate nohighlight">\(\pi\)</span> conjugadas. <span id="id22">[<a class="reference internal" href="../../bibliography.html#id106"><span>Suh83</span></a>,<a class="reference internal" href="../../bibliography.html#id109"><span>WHW79</span></a>]</span> De fato, cálculos feitos no mesmo nível dos apresentados até aqui confirmaram isso (Apêndice 1). O caráter semi-condutor das cadeias de <em>trans</em>-(poli)acetileno surgem do fato de que, em uma cadeia unidimensional infinita, o estado fundamental duplamente degenerado é instável devido à <strong>instabilidade de Peierls</strong> <span id="id23">[<a class="reference internal" href="../../bibliography.html#id105"><span>Pei96</span></a>]</span>. Isso faz com que as ligações entre os átomos de carbono alternem entre simples e duplas, quebrando essa degenerescência e forçando os átomos de carbono a se agruparem em pares. Esse fenômeno, conhecido como <strong>distorção de Peierls</strong>, quebra a simetria translacional e separa os níveis de energia das bandas de valência e condução, convertendo a estrutura em um semi-condutor. <span id="id24">[<a class="reference internal" href="../../bibliography.html#id105"><span>Pei96</span></a>]</span></p>
+<p>O <em>cis</em>-(poli)acetileno apresenta o mesmo fenômeno, entretanto a distorção das ligações pode gerar duas formas: <em>cis-transoide</em>-(poli)acetileno e <em>trans-cisoide</em>-(poli)acetileno. Essas duas formas apresentam características eletrônicas parecidas, porém com <em>band gap</em> diferentes. As formas <em>cis</em>-(poli)acetileno e <em>cis-transoide</em>-(poli)acetileno apresentam <em>band gap</em> de 0,8 eV, calculados com funcional PBE, enquanto a forma <em>trans-cisoide</em>-(poli)acetileno apresenta band gap de 0.3 eV (para mais detalhes ver Apêndice 1).</p>
+<p>Na estrutura do Spiro-Carbon as ligações conectando os átomos C2 apresentam comprimento de ligação de 1.342 Å e 1.394 Å, muito próximo dos apresentados pelo <em>trans-cisoid</em>-(poli)acetileno, no qual as ligações correspondentes apresentam comprimentos de 1.377 Å e 1.424 Å. Esses valores estão de acordo com observações experimentais e cálculos teóricos reportados na literatura <span id="id25">[<a class="reference internal" href="../../bibliography.html#id107"><span>CKS82</span></a>,<a class="reference internal" href="../../bibliography.html#id108"><span>Chi12</span></a>,<a class="reference internal" href="../../bibliography.html#id109"><span>WHW79</span></a>]</span>.</p>
+<div class="figure align-default" id="acetileto-2-spiro">
+<img alt="../../_images/poliacetileno_2_spiro.svg" src="../../_images/poliacetileno_2_spiro.svg" /><p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text">Diagrama de bandas das estruturas intermediárias entre o <em>cis</em>-(poli)acetileno e o Spiro-Carbon</span><a class="headerlink" href="#acetileto-2-spiro" title="Permalink to this image">¶</a></p>
+</div>
+<p>A <a class="reference internal" href="#acetileto-2-spiro"><span class="std std-numref">Fig. 14</span></a> apresenta o diagrama de bandas das estruturas intermediárias entre o <em>cis</em>-(poli)acetileno e o Spiro-Carbon. É possível observar que conforme a cadeia lateral aumenta e se aproxima da forma estrutural do Spiro-Carbon, os orbitais <span class="math notranslate nohighlight">\(p_y\)</span> e <span class="math notranslate nohighlight">\(p_z\)</span> começam a apresentar densidades de estados cada vez mais próxima do nível de Fermi, com os orbitais preenchidos “subindo” em energia e os orbitais vazios “descendo” em energia, tendo como caso limite o Spiro-Carbon em que esses orbitais se intersectam.</p>
+<div class="figure align-default" id="bands-fermi">
+<img alt="../../_images/bands_fermi.png" src="../../_images/bands_fermi.png" />
+<p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text">Gráfico da (pseudo)-densidade de carga decomposta nas bandas que cruzam o nível de Fermi para a cela primitiva tetragonal. Iso-superfícies ajustadas para 0.005 <span class="math notranslate nohighlight">\(a_0^{-3}\)</span>, onde <span class="math notranslate nohighlight">\(a_0\)</span> é o raio de Bohr.</span><a class="headerlink" href="#bands-fermi" title="Permalink to this image">¶</a></p>
+</div>
+<p>O caráter metálico da estrutura do Spiro-Carbon pode ser entendido qualitativamente, portanto, da seguinte maneira: se a estrutura fosse composta somente das cadeias de <em>trans-cisoid</em>-(poli)acetileno, a estrutura seria um semicondutor. De fato, a diferença de energia entre as bandas de valência e condução em <span class="math notranslate nohighlight">\(\Gamma\)</span> é de 1.28 eV, valor próximo do <em>band gap</em> calculado para a cadeia de <em>trans</em>-(poli)acetileno isolada. Entretanto, a interconexão entre as cadeias criada pelo átomo de carbono <span class="math notranslate nohighlight">\(sp^3\)</span> gera uma sobreposição das bandas de valência e condução próximo ao ponto Z. Como consequência, bolsões de buracos <a class="footnote-reference brackets" href="#footnote6" id="id26">6</a> surgem próximo do topo da banda de valência em <span class="math notranslate nohighlight">\(\Gamma\)</span> e a banda de condução passa a ser populada próximo de Z. Dessa forma, podemos ver o caráter metálico da estrutura do Spiro-Carbon como resultante de uma <em>“dopagem intrínseca”</em>, ou uma <em>auto-dopagem</em>, gerada pela adição do carbono <span class="math notranslate nohighlight">\(sp^3\)</span> na estrutura. Ou seja, parece ser possível dopar um determinado elemento com a adição de átomos do mesmo elemento, deste que este apresente hibridação diferente dos demais átomos na estrutura não dopada.</p>
+<div class="figure align-default" id="elf">
+<img alt="../../_images/ELF.png" src="../../_images/ELF.png" />
+<p class="caption"><span class="caption-number">Fig. 16 </span><span class="caption-text">À esquerda, o gráfico da função de localização eletrônica no plano (010) da cela tetragonal convencional. As linhas de contorno estão linearmente distribuídas em intervalos de 0,25. À direita, o gráfico da pseudo-densidade de carga no plano (010) da cela tetragonal convencional. A escala apresenta valores entre 0 e 2 e/Å<sup>3</sup> e as linhas de contorno estão linearmente distribuídas em intervalos de 0,25 e/Å<sup>3</sup>. Em ambos os casos 3 unidades de repetição no eixo <span class="math notranslate nohighlight">\(x\)</span> foram utilizada para facilitar a visualização.</span><a class="headerlink" href="#elf" title="Permalink to this image">¶</a></p>
+</div>
+<p>De fato, as iso-superfícies da (pseudo)-densidade de carga para as bandas que cruzam o nível de Fermi confirmam que essas bandas apresentam um claro caráter de orbitais <span class="math notranslate nohighlight">\(\pi\)</span> conjugados, reforçando a ideia de que essas ligações deslocalizadas são as principais responsáveis pelo caráter eletrônico metálico da estrutura.</p>
+<p>Esses grandes picos de densidades de estado, remanescentes do caráter <em>quasi</em>-1D das cadeias condutoras, sugere que o Spiro-Carbon é um bom condutor que poderá apresentar uma grande anisotropia na condutividade, sendo alta ao longo das direções <span class="math notranslate nohighlight">\(xy\)</span> e baixa na direção <span class="math notranslate nohighlight">\(z\)</span>. Além disso, a alta densidade de estados próximo ao nível de Fermi sugere que o Spiro-Carbon possa apresentar diversos eletrônicos interessantes como magnetismo, supercondutividade, ondas de portadores de carga, dentre outras.</p>
+<p>Por fim, para explorar o grau de deslocalização da estrutura eletrônica a <a class="reference internal" href="#elf"><span class="std std-numref">Fig. 16</span></a> apresenta o gráfico da ELF no plano (010) para a cela tetragonal convencional do Spiro-Carbon. É possível observar claramente a alta localização da densidade de carga, com  <span class="math notranslate nohighlight">\(\chi_{ELF}&gt;0,75\)</span>, entre todos os átomos de carbono referente à ligação <span class="math notranslate nohighlight">\(\sigma\)</span> entre esses átomos. Adicionalmente, uma densidade de carga com <span class="math notranslate nohighlight">\(0,75\geq \chi_{ELF}\geq 0,25\)</span> pode ser observada se espalhando por toda a estrutura, revelando a natureza altamente deslocalizada da densidade de carga advinda das ligações <span class="math notranslate nohighlight">\(\pi\)</span>.</p>
+</div>
+<div class="section" id="possiveis-abordagens-sinteticas">
+<h3>Possíveis abordagens sintéticas<a class="headerlink" href="#possiveis-abordagens-sinteticas" title="Permalink to this headline">¶</a></h3>
+<p>Uma possível rota de síntese para o Spiro-Carbon pode ser proposta derivadas do acoplamento de Suzuki-Miyaura entre unidades do spiropentadieno halogenadas contendo grupos éster borônico, como apresentado na <a class="reference internal" href="#synthesis"><span class="std std-numref">Fig. 17</span></a>. Os precursores poderiam ser obtidos através da química de carbenos ou por estratégias comparáveis às empregadas por Billups e Haley <span id="id27">[<a class="reference internal" href="../../bibliography.html#id58"><span>BH91</span></a>]</span>.</p>
+<div class="figure align-default" id="synthesis">
+<img alt="../../_images/synthesis_polyspiro1.svg" src="../../_images/synthesis_polyspiro1.svg" /><p class="caption"><span class="caption-number">Fig. 17 </span><span class="caption-text">Possível rota sintética para a obtenção do Spiro-Carbon</span><a class="headerlink" href="#synthesis" title="Permalink to this image">¶</a></p>
+</div>
+<p>Na <a class="reference internal" href="#charac"><span class="std std-numref">Fig. 18</span></a> são apresentados os espectros simulados de FTIR, <sup>13</sup>C RMN, difração de raios-X e absorção no UV-VIS para o Spiro-Carbon, na esperança de que sejam úteis no auxílio da caracterização de possíveis candidatos. O espectro de FTIR (<a class="reference internal" href="#charac"><span class="std std-numref">Fig. 18</span></a>-<em>a</em>) apresenta um pico principal em 918 cm<sup>-1</sup> devido ao modo vibracional com simetria E<sub>u</sub> e dois picos menores em 527 e 1100 cm<sup>-1</sup> devido aos modos  E<sub>u</sub> and A<sub>2u</sub>, respectivamente. O espectro de <sup>13</sup>C RMN, mostrado na <a class="reference internal" href="#charac"><span class="std std-numref">Fig. 18</span></a>-<em>b</em>, apresenta dois deslocamentos químicos diferentes: 47.0 ppm para o átomo C1 e 133.6 ppm para o átomo C2. O espectro de difração de raios-X, apresentado na <a class="reference internal" href="#charac"><span class="std std-numref">Fig. 18</span></a>-<em>c</em>, calculado para comprimento de onda de 1.54059 Å apresenta um pico principal em 18.5° referente ao plano de Bragg (101) e picos menores em 29.8° e 35.0°, referentes aos planos (112) e (200), respectivamente.</p>
+<div class="figure align-default" id="charac">
+<img alt="../../_images/characterization.png" src="../../_images/characterization.png" />
+<p class="caption"><span class="caption-number">Fig. 18 </span><span class="caption-text">Gráficos dos espectros calculados de (a) FTIR (Lorentziana com 10 cm<sup>-1</sup> de largura); (b) deslocamentos químicos isotrópicos de <sup>13</sup>C RMN (Lorentziana com 1 ppm de largura); (c) Difratograma de raios-X; (d) Espectro de absorção UV-VIS (Lorentziana com 0.02 Ry de largura)</span><a class="headerlink" href="#charac" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="spiro-carbon-como-um-material-microporoso">
+<h3>Spiro-carbon como um material microporoso<a class="headerlink" href="#spiro-carbon-como-um-material-microporoso" title="Permalink to this headline">¶</a></h3>
+<p>Um aspecto que pode ser explorado nesse novo material proposto é sua estrutura porosa, representada na <a class="reference internal" href="#charac-poros"><span class="std std-numref">Fig. 19</span></a>-<em>b</em>. A máxima esfera que pode ser incluída dentro dos poros do Spiro-Carbon apresenta diâmetro de 3.21 Å. A área de superfície geometricamente acessível para essa estrutura é de 2296 m<sup>2</sup>/g. Sendo assim, esse material poderia potencialmente ser um adsorvente seletivo para gases, particularmente aqueles compostos por moléculas pequenas, como H<sub>2</sub> por exemplo. Para avaliar a viabilidade desta aplicação cálculos Monte Carlo Grand-Canônicos foram executados a fim de obter a capacidade de adsorção de H<sub>2</sub>, N<sub>2</sub> e CO<sub>2</sub>. Na <a class="reference internal" href="#charac-poros"><span class="std std-numref">Fig. 19</span></a>-<em>a</em> pode-se observar uma isoterma de adsorção de H<sub>2</sub> do tipo I(a), típica de sólidos microporosos. <span id="id28">[<a class="reference internal" href="../../bibliography.html#id77"><span>TKN+15</span></a>]</span></p>
+<div class="figure align-default" id="charac-poros">
+<img alt="../../_images/micro.png" src="../../_images/micro.png" />
+<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">{(a) Adsorção isotérmica de H<sub>2</sub>; (e) Representação da estrutura microporosa do Spiro-Carbon.</span><a class="headerlink" href="#charac-poros" title="Permalink to this image">¶</a></p>
+</div>
+<p>A capacidade adsortiva de H<sub>2</sub> à 77K em 1 bar (100 kPa) calculada foi de 373 cm<sup>3</sup>/g, aproximadamente 3.35% em peso. Esse valor é consideravelmente alto, o que inclui o Spiro-Carbon na classe de materiais microporosos com excepcional capacidade de adsorção de H<sub>2</sub>. <span id="id29">[<a class="reference internal" href="../../bibliography.html#id11"><span>BM17</span></a>,<a class="reference internal" href="../../bibliography.html#id80"><span>WFMY06</span></a>]</span> Cálculos similares para a adsorção de moléculas maiores, como N<sub>2</sub> e CO<sub>2</sub> revelaram que essas moléculas não caberiam dentro dos poros. Dessa forma, o Spiro-Carbon pode ser considerado um adsorvente seletivo e exclusivo para H<sub>2</sub>.</p>
+</div>
+<div class="section" id="conclusoes">
+<h3>Conclusões<a class="headerlink" href="#conclusoes" title="Permalink to this headline">¶</a></h3>
+<p>Nesta seção um novo alótropo de carbono nomeado Spiro-Carbon, que, na extensão de nosso conhecimento ainda não foi relatado na literatura, foi estudado por cálculos em nível DFT PBE-D3. Com base nos dados apresentados podemos concluir que esta estrutura é um mínimo na superfície de potencial, é mecanicamente estável e apresenta caráter eletrônico metálico peculiar. Ele também apresenta menor energia de formação que outras formas alotrópicas tridimensionais do carbono, como Y-, Y-II-, T-, e T-II-Carbon, e potencial aplicação como adsorvente seletivo para H<sub>2</sub>.</p>
+<p>Os resultados discutidos nesta seção resultaram na publicação do artigo:</p>
+<blockquote>
+<div><p>Oliveira, F.L., Capaz, R.B. and Esteves, P.M., <em>Spiro-Carbon</em>: A metallic carbon allotrope predicted from first principles calculations. <strong>Chem. Phys. Chem.</strong>, v.21, n.1, p.59-64, 2020.</p>
+</div></blockquote>
+<hr class="footnotes docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="footnote1"><span class="brackets"><a class="fn-backref" href="#id4">1</a></span></dt>
+<dd><p>A estrutura desta molécula é apresentada em mais detalhes no Apêndice 3</p>
+</dd>
+<dt class="label" id="footnote2"><span class="brackets"><a class="fn-backref" href="#id6">2</a></span></dt>
+<dd><p>Os cálculos para a molécula spiropentadieno são apresentadas no Apêndice 3</p>
+</dd>
+<dt class="label" id="footnote3"><span class="brackets"><a class="fn-backref" href="#id15">3</a></span></dt>
+<dd><p>Em álgebra linear, uma matriz definida positiva é uma matriz que, em muitos aspectos, é análoga a um número real positivo. A noção é parecida com a de uma forma bilinear simétrica positiva-definida (ou uma forma sesquilinear no caso complexo). A definição adequada de definida positiva não tem ambiguidades no caso de matrizes Hermitianas, mas não há consenso na literatura a respeito de como ela deve ser estendida para matrizes não Hermitianas, se é que isso deve ser feito.</p>
+</dd>
+<dt class="label" id="footnote4"><span class="brackets"><a class="fn-backref" href="#id16">4</a></span></dt>
+<dd><p>determinantes das <em>k</em> submatrizes da esquerda superior,para 1 <span class="math notranslate nohighlight">\(\leq\)</span> <em>k</em> <span class="math notranslate nohighlight">\(\leq\)</span> 6</p>
+</dd>
+<dt class="label" id="footnote5"><span class="brackets"><a class="fn-backref" href="#id19">5</a></span></dt>
+<dd><p>1 HV = 0.009807 GPa</p>
+</dd>
+<dt class="label" id="footnote6"><span class="brackets"><a class="fn-backref" href="#id26">6</a></span></dt>
+<dd><p>Quasi-partículas equivalentes ao elétron, porém com carga contrária. Corresponde à abstenção de um elétron de um estado abaixo do nível de Fermi.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./capitulos\results1"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="../results0/valida.html" title="previous page">Validação Metodológica dos Cálculos</a>
+    <a class='right-next' id="next-link" href="../results2/results2.html" title="next page">Novos Alótropos de Carbono: ABF-Carbon</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Felipe Lopes de Oliveira<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+    
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+
+    
+  </body>
+</html>

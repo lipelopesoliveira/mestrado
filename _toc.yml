@@ -8,5 +8,8 @@
     - file: capitulos/intro/objetivos.md
     - file: capitulos/intro/metodologia.md
     - file: capitulos/results0/valida.md
+    - file: capitulos/results1/results1.md
+    - file: capitulos/results2/results2.md
+    - file: capitulos/results3/results3.md
     - file: capitulos/intro/conclusao.md
     - file: bibliography.md

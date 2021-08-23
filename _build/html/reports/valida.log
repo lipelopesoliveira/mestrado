@@ -26,7 +26,7 @@ nbclient.exceptions.CellExecutionError: An error occurred while executing the fo
 			\begin{tabular}{l|ccccccc}
 				\hline\hline
 				& $a$ & $\rho$ & d(C-C) & \textbf{B} & E. Coeh. & \textit{Band Gap} & Freq. \\
-				& (\AA{}) & (cm$^3$/g) & (\AA{}) & (GPa) & (eV/átomo) & (eV) & (cm$^{-1}$) \\ \hline
+				& (Å) & (cm$^3$/g) & (Å) & (GPa) & (eV/átomo) & (eV) & (cm$^{-1}$) \\ \hline
 				Experimental & 3.567\textsuperscript{\cite{hom1975accurate}} & 3.523\textsuperscript{\cite{hom1975accurate}}     & 1.544\textsuperscript{\cite{hom1975accurate}}       & 442\textsuperscript{\cite{grimsditch1975brillouin}}     &  7.58\textsuperscript{\cite{greenwood2012chemistry}}     & 5.47\textsuperscript{\cite{greenwood2012chemistry}}     & 1332\textsuperscript{\cite{warren1967lattice}}         \\
 				LDA          & 3.534 & 3.616     & 1.530        & 465.3   &  8.98     & 4.19     & 1321         \\
 				LDA-D2       & 3.525 & 3.641     & 1.527        & 471.3   &  9.19     & 4.21     & 1337         \\

@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novos Alótropos de Carbono: ABF-Carbon &#8212; Estudo de novos alótropos de carbono por Teoria do Funcional da Densidade</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Gerando novos alótropos" href="../results3/results3.html" />
+    <link rel="prev" title="Novos Alótropos de Carbono: Spiro-Carbon" href="../results1/results1.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Estudo de novos alótropos de carbono por Teoria do Funcional da Densidade</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   Estudo de novos alótropos de carbono por Teoria do Funcional da Densidade
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/intro.html">
+   Introdução
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/rev_biblio.html">
+   Revisão Bibliográfica
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/objetivos.html">
+   Objetivos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/metodologia.html">
+   Metodologia
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../results0/valida.html">
+   Validação Metodológica dos Cálculos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../results1/results1.html">
+   Novos Alótropos de Carbono: Spiro-Carbon
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Novos Alótropos de Carbono: ABF-Carbon
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../results3/results3.html">
+   Gerando novos alótropos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro/conclusao.html">
+   Conclusão
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../bibliography.html">
+   Bibliografia
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="../../_sources/capitulos/results2/results2.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/capitulos/results2/results2.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/lipelopesoliveira/mestrado"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/lipelopesoliveira/mestrado/issues/new?title=Issue%20on%20page%20%2Fcapitulos/results2/results2.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/lipelopesoliveira/mestrado/master?urlpath=lab/tree/docs/capitulos/results2/results2.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#abf-carbon">
+   ABF-Carbon
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estrutura">
+     Estrutura
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estabilidade-relativa-e-propriedades-mecanicas">
+     Estabilidade Relativa e Propriedades Mecânicas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#propredades-eletronicas">
+     Propredades Eletrônicas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#caracterizacao">
+     Caracterização
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conclusoes">
+     Conclusões
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="novos-alotropos-de-carbono-abf-carbon">
+<h1>Novos Alótropos de Carbono: ABF-Carbon<a class="headerlink" href="#novos-alotropos-de-carbono-abf-carbon" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="abf-carbon">
+<h2>ABF-Carbon<a class="headerlink" href="#abf-carbon" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default">
+<img alt="../../_images/Figura_2.gif" src="../../_images/Figura_2.gif" />
+</div>
+<p>Tomando com base o motivo estrutural explorado no alótropo de carbono da seção anterior, o motivo <strong>spiro</strong>, podemos conceber uma miríade de outras estruturas. Poderíamos, por exemplo, utilizar a estratégia de inserir unidades de acetileno entre as unidades spiro, formando estruturas conjugadas com poros progressivamente maiores como explorado em <span id="id1">[<a class="reference internal" href="../../bibliography.html#id65"><span>CHO+18</span></a>]</span>. Por outro lado, é possível conectar o motivo estrutural diretamente a átomos de carbono <em>sp</em><sup>3</sup>, formando estruturas porosas semelhantes ao Spiro-Carbon, porém sem a conjugação entre as ligações duplas, gerando um potencial alótropo de carbono 3D semi-condutor. Essa estrutura hipotética será explorada ao longo dessa próxima seção</p>
+<div class="section" id="estrutura">
+<h3>Estrutura<a class="headerlink" href="#estrutura" title="Permalink to this headline">¶</a></h3>
+<p>Essa estrutura idealizada, que pode representada por uma rede 3D do tipo <a class="reference external" href="http://rcsr.anu.edu.au/nets/abf%5C">abf</a> e por isso será nomeada como ABF-Carbon, apresenta 6 átomos em uma célula unitária primitiva tetragonal de corpo centrado, com grupo espacial <span class="math notranslate nohighlight">\(I\bar{4}m2\)</span> (#119) e grupo pontual <span class="math notranslate nohighlight">\(D_{2d}^{11}\)</span>. A geometria de equilíbrio obtida a partir da otimização completa da estrutura apresenta parâmetros de célula <em>a</em> = <em>b</em> = 3.811 Å, <em>c</em> = 8.726 Å e <span class="math notranslate nohighlight">\(\alpha\)</span> = <span class="math notranslate nohighlight">\(\beta\)</span> = <span class="math notranslate nohighlight">\(\gamma\)</span> = 90<span class="math notranslate nohighlight">\(^\circ\)</span>, apresentando densidade de 1.89 g/cm<span class="math notranslate nohighlight">\(^3\)</span>. A célula unitária primitiva e convencional resultante é apresentada na <a class="reference internal" href="#structure-homospiro"><span class="std std-numref">Fig. 20</span></a>.</p>
+<div class="figure align-default" id="structure-homospiro">
+<img alt="../../_images/structure.png" src="../../_images/structure.png" />
+<p class="caption"><span class="caption-number">Fig. 20 </span><span class="caption-text">Representação da célula unitária do ABF-Spiro vista na direção dos vetores a) <strong>a</strong>, b) <strong>b</strong>, c) <strong>c</strong>, d) representação de célula primitiva e e). Representação da estrutura atômica da célula unitária tetragonal para o ABF-Carbon, com os átomos não equivalentes destacados em cores diferentes.</span><a class="headerlink" href="#structure-homospiro" title="Permalink to this image">¶</a></p>
+</div>
+<p>Baseado na simetria do grupo espacial desta estrutura os três átomos não equivalentes ocupam os sítios de Wyckoff <em>8i</em>, <em>2a</em> e <em>2d</em>, como representado na <a class="reference internal" href="#structure-homospiro"><span class="std std-numref">Fig. 20</span></a>-e). O átomo <strong>C1</strong> (verde) ocupa o sítio 8i e apresenta coordenadas fracionárias (0.00000, 0.00000, 0.00000), <strong>C2</strong> (amarelo) ocupa o sítio 2a e apresenta coordenadas (0.82651, 0.00000, 0.15266) e <strong>C3</strong> (azul) ocupa o sítio 2d apresentando coordenadas (0.00000, 0.50000, 0.75000). Baseado na estrutura otimizada é possível distinguir três diferentes tipos de ligação: <em>i)</em> As ligações do átomo <span class="math notranslate nohighlight">\(sp^3\)</span> da unidade <em>spiro</em> com seus vizinhos (C1-C2) com comprimento iguais de 1.487 Å; <em>ii)</em> as ligações entre os átomos <strong>C2</strong> (C2=C2), com comprimento de 1.322 Å, fechando o anel de 3 membros e formando a unidade spiro; <em>iii)</em> as ligações das unidades <em>spiro</em> com o átomo de carbono <span class="math notranslate nohighlight">\(sp^3\)</span> (<strong>C3</strong>), com comprimento de 1.506 \AA, comprimento típico de ligação simples entre átomos de carbono.</p>
+<p>Os ângulos internos da unidade <em>spiro</em> são de 52.8<span class="math notranslate nohighlight">\(^\circ\)</span> (C2-C1-C2) e 63.6<span class="math notranslate nohighlight">\(^\circ\)</span> (C1-C2-C2), valores iguais aos apresentados pelo análogo molecular spiropentadieno. Os ângulos das ligações do átomo de carbono <strong>C3</strong> apresentam um leve desvio do padrão para um tetraedro perfeito, de 109.5<span class="math notranslate nohighlight">\(^\circ\)</span>, apresentando valores de 111.4<span class="math notranslate nohighlight">\(^\circ\)</span> e 108.5<span class="math notranslate nohighlight">\(^\circ\)</span>.</p>
+<p>É possível observar que nessa estrutura que os comprimentos e ângulos das ligações na unidade <em>spiro</em> se assemelham muito mais ao seu análogo molecular, o spiropentadieno, do que na estrutura do Spiro-Carbon. Isso se dá pelo fato de que, nessa estrutura, as unidades <em>spiro</em> estão ligadas diretamente a átomos de carbono <span class="math notranslate nohighlight">\(sp^3\)</span>, o que impede que ocorra a conjugação entre as ligações duplas e fazendo que as ocorra uma localização maior das ligações duplas e simples. Isso nos permite antecipar que essa estrutura apresentará um caráter semi-condutor com <em>band gap</em> relativamente grande, devido à dificuldade de interação entre os orbitais <span class="math notranslate nohighlight">\(\pi\)</span>.</p>
+</div>
+<div class="section" id="estabilidade-relativa-e-propriedades-mecanicas">
+<h3>Estabilidade Relativa e Propriedades Mecânicas<a class="headerlink" href="#estabilidade-relativa-e-propriedades-mecanicas" title="Permalink to this headline">¶</a></h3>
+<p>Para investigar a estabilidade relativa desta estrutura, foi calculada a dispersão de fônons ao longo de um caminho entre pontos de alta simetria na primeira zona de Brillouin <span id="id2">[<a class="reference internal" href="../../bibliography.html#id76"><span>BC10</span></a>]</span>. Como pode ser observado na <a class="reference internal" href="#ph-dos-2"><span class="std std-numref">Fig. 21</span></a>-<em>a)</em> não há a presença de nenhuma frequência imaginária, indicando que a estrutura do ABF-Carbon corresponde a um mínimo na superfície de potencial.</p>
+<div class="figure align-default" id="ph-dos-2">
+<img alt="../../_images/cohesive_abf-carbon.svg" src="../../_images/cohesive_abf-carbon.svg" /><p class="caption"><span class="caption-number">Fig. 21 </span><span class="caption-text">(a) Gráfico da dispersão de fônons ao longo de alguns pontos de alta simetria na primeira zona de Brillouin e a correspondente densidade de estados vibracionais (VDOS) para o ABF-Carbon. (b) Energia coesiva por átomo em função do volume (<span class="math notranslate nohighlight">\(E_c(V)\)</span>) por átomo para diferentes alótropos de carbono. (c) Energia potencial em função do tempo de simulação e snapshots selecionados em 2 e 20 ps para uma Dinâmica Molecular <em>ab-initio</em> do tipo Born-Oppenheimer à 900K.</span><a class="headerlink" href="#ph-dos-2" title="Permalink to this image">¶</a></p>
+</div>
+<p>Para avaliar a estabilidade termodinâmica relativa do ABF-Carbon, a <a class="reference internal" href="#ph-dos-2"><span class="std std-numref">Fig. 21</span></a>-<em>b)</em> mostra a variação da energia coesiva em função do volume (ambos por átomo) para diferentes alótropos de carbono. Como esperado, a curva <span class="math notranslate nohighlight">\(E_c(V)\)</span> para o ABF-Carbon apresenta claramente um mínimo correspondente ao estado meta-estável desta estrutura. Assim como o Spiro-Carbon, esta estrutura se mostrou mais estável do que outros alótropos de carbono tridimensionais  como  1-diamantino/Y-Carbon <span id="id3">[<a class="reference internal" href="../../bibliography.html#id65"><span>CHO+18</span></a>,<a class="reference internal" href="../../bibliography.html#id55"><span>LTD+14</span></a>]</span> por aproximadamente 1.55 kcal/mol (0.07 eV) por átomo e o T-Carbon <span id="id4">[<a class="reference internal" href="../../bibliography.html#id54"><span>SYY+11</span></a>]</span> por aproximadamente 5.1 kcal/mol (0.22 eV), como mostrado na <a class="reference internal" href="#energy-abf"><span class="std std-numref">Table 5</span></a>.</p>
+<p>Curiosamente o ABF-Carbon apresentou energia coesiva cerca de 1.0 kcal/mol (0.05 eV) menor do que o Spiro-Carbon. Em geral, é esperado que uma estrutura que apresente mais átomos de carbono com hibridização <span class="math notranslate nohighlight">\(sp^3\)</span> apresente maior estabilidade, entretanto, o ABF-Carbon mesmo apresentando uma razão de átomos <span class="math notranslate nohighlight">\(sp^2\)</span>/<span class="math notranslate nohighlight">\(sp^3\)</span> de 2/1, valor menor do que o apresentado pelo Spiro-Carbon de 4/1, apresenta menor energia de formação. Este fenômeno é bastante incomum, e pode ter uma relação direta com o fato de o grafite possuir energia coesiva maior do que o diamante. Talvez a deslocalização gerada pela formação de ligações <span class="math notranslate nohighlight">\(\pi\)</span> conjugadas, como acontece no grafite e no Spiro-Carbon, seja um fator estabilizante maior do que a sobreposição frontal dos orbitais gerada pela formação das ligações <span class="math notranslate nohighlight">\(\sigma\)</span> em estruturas como a do diamante e do ABF-Carbon. Esse fenômeno ainda não apresenta uma resposta conclusiva na literatura, e pesquisas mais aprofundadas devem ser feitas para tentar explicar esse resultado contra-intuitivo.</p>
+<table class="table" id="energy-abf">
+<caption><span class="caption-number">Table 5 </span><span class="caption-text">Módulo das energias relativa e coesiva por átomo para o ABF-Carbon comparado com diferentes alótropos de carbono.</span><a class="headerlink" href="#energy-abf" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Estrutura</p></th>
+<th class="head"><p>Energia Relativa (ev/átomo)</p></th>
+<th class="head"><p>Energia Relativa (kcal/mol/átom)</p></th>
+<th class="head"><p>Energia Coesiva (ev/átomo)</p></th>
+<th class="head"><p>Energia Coesiva (kcal/mol/átomo)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Grafite</p></td>
+<td><p>0.000</p></td>
+<td><p>0.00</p></td>
+<td><p>7.856</p></td>
+<td><p>181.16</p></td>
+</tr>
+<tr class="row-odd"><td><p>Diamante</p></td>
+<td><p>0.112</p></td>
+<td><p>2.57</p></td>
+<td><p>7.744</p></td>
+<td><p>178.59</p></td>
+</tr>
+<tr class="row-even"><td><p>Spiro-Carbon</p></td>
+<td><p>1.079</p></td>
+<td><p>24.88</p></td>
+<td><p>6.777</p></td>
+<td><p>156.29</p></td>
+</tr>
+<tr class="row-odd"><td><p>Carbino</p></td>
+<td><p>1.106</p></td>
+<td><p>25.50</p></td>
+<td><p>6.750</p></td>
+<td><p>155.67</p></td>
+</tr>
+<tr class="row-even"><td><p>ABF-Carbon</p></td>
+<td><p>1.121</p></td>
+<td><p>25.86</p></td>
+<td><p>6.735</p></td>
+<td><p>155.30</p></td>
+</tr>
+<tr class="row-odd"><td><p>Y Carbon</p></td>
+<td><p>1.189</p></td>
+<td><p>27.41</p></td>
+<td><p>6.667</p></td>
+<td><p>153.75</p></td>
+</tr>
+<tr class="row-even"><td><p>Y-II Carbon</p></td>
+<td><p>1.177</p></td>
+<td><p>27.15</p></td>
+<td><p>6.679</p></td>
+<td><p>154.01</p></td>
+</tr>
+<tr class="row-odd"><td><p>T Carbon</p></td>
+<td><p>1.342</p></td>
+<td><p>30.94</p></td>
+<td><p>6.514</p></td>
+<td><p>150.22</p></td>
+</tr>
+<tr class="row-even"><td><p>T-II Carbon</p></td>
+<td><p>1.554</p></td>
+<td><p>35.84</p></td>
+<td><p>6.302</p></td>
+<td><p>145.32</p></td>
+</tr>
+</tbody>
+</table>
+<p>Avaliando as seis constantes elásticas (<span class="math notranslate nohighlight">\(\textbf{C}_{ij}\)</span> em GPa) calculadas, apresentadas na <a class="reference internal" href="#elastic-abf"><span class="std std-numref">Fig. 22</span></a>, é fácil ver que as condições necessárias e suficientes que devem ser satisfeitas, baseadas nos critérios de estabilidade de Born <span id="id5">[<a class="reference internal" href="../../bibliography.html#id68"><span>Bor40</span></a>]</span>, para garantir a estabilidade mecânica para uma rede tetragonal são satisfeitos pelo ABF-Carbon, indicando que essa nova estrutura proposta é mecanicamente estável.</p>
+<p>A <a class="reference internal" href="#elastic-abf"><span class="std std-numref">Fig. 22</span></a> mostra os gráficos da dependência espacial nos planos <strong>xy</strong>, <strong>xz</strong> e <strong>yz</strong> para os módulos de Young (<em>E</em>) e shear (<strong>G</strong>), compressibilidade linear  (<span class="math notranslate nohighlight">\(\beta\)</span>) e razão de Poisson (<span class="math notranslate nohighlight">\(\nu\)</span>), calculadas a partir das constantes elásticas apresentadas na <a class="reference internal" href="#elastic-abf"><span class="std std-numref">Fig. 22</span></a>. É possível notar uma anisotropia do módulo de Young e módulo shear semelhante à apresentada pelo Spiro-Carbon, porém com menor intensidade. Esse resultado pode ser associado com a presença do átomo de carbono <span class="math notranslate nohighlight">\(sp^3\)</span> conectando as unidade spiro na formação da estrutura estendida, conferindo maior rigidez e menor anisotropia a esse material. De fato, a anisotropia do módulo de Young é de A<sub>E</sub> = 4.03 e do módulo de cisalhamento é de A<sub>G</sub> = 5.55, valores muito menores que o para o Spiro-Carbon que são de 19.58 e 29.98, respectivamente.</p>
+<p>Utilizando o modelo empírico de Chen <em>et al.</em> <span id="id6">[<a class="reference internal" href="../../bibliography.html#id70"><span>CNLL11</span></a>]</span> para o cálculo  da dureza de Vicker, o valor obtido para o ABF-Carbon é de 14.23 GPa (1452 HV). Esse valor é 3.25 vezes maior do que o apresentado pelo Spiro-Carbon, confiando que a adição dos átomos de carbono sp<span class="math notranslate nohighlight">\(^3\)</span> na estrutura aumentam sua rigidez e dureza.</p>
+<div class="figure align-default" id="elastic-abf">
+<img alt="../../_images/Elastic.png" src="../../_images/Elastic.png" />
+<p class="caption"><span class="caption-number">Fig. 22 </span><span class="caption-text">Dependência espacial do (a) módulo de Young; (b) compressibilidade linear; (c) módulo Shear e (d) razão de Poisson.</span><a class="headerlink" href="#elastic-abf" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="propredades-eletronicas">
+<h3>Propredades Eletrônicas<a class="headerlink" href="#propredades-eletronicas" title="Permalink to this headline">¶</a></h3>
+<p>A estrutura do ABF-Carbon, ao contrário do Spiro-Carbon, apresenta ligações duplas localizadas nas unidades <em>spiro</em> sem a possibilidade de conjugação, fazendo com que esse material possa apresentar um caráter semi-condutor. O <em>gap</em> HOMO-LUMO calculado para a molécula do spiropentadieno é de 3.92 eV e 5.22 eV quando calculado como os funcionais PBE e HSE, respectivamente. (Ver Apêndice 3 para mais detalhes} O diagrama de bandas calculado em nível PBE, apresentado na \autoref{band_ABF}, confirma o caráter semi-condutor com <em>band gap</em> direto da estrutura. Além disso, é possível observar que a densidade de estados próxima ao nível de Fermi é formada unicamente pelos orbitais <span class="math notranslate nohighlight">\(2p\)</span> (<span class="math notranslate nohighlight">\(2p_x\)</span>, <span class="math notranslate nohighlight">\(2p_y\)</span> e <span class="math notranslate nohighlight">\(2p_z\)</span>). O <em>band gap</em> direto calculado nesse nível é de 1.35 eV e 2.39 eV com o funcional HSE, indicando que essa estrutura apresenta um grande potencial para aplicações em optoeletrônica e fotocatálise.</p>
+<div class="figure align-default" id="band-abf">
+<img alt="../../_images/band_structure.svg" src="../../_images/band_structure.svg" /><p class="caption"><span class="caption-number">Fig. 23 </span><span class="caption-text">Dispersão de energia das bandas ao longo dos principais pontos de alta simetria na primeira zona de Brillouin (direita) e densidade de estados projetada nos orbitais (esquerda) para o ABF-Carbon. A energia de Fermi (<span class="math notranslate nohighlight">\(\epsilon_f\)</span>) foi ajustada para 0.</span><a class="headerlink" href="#band-abf" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="caracterizacao">
+<h3>Caracterização<a class="headerlink" href="#caracterizacao" title="Permalink to this headline">¶</a></h3>
+<p>Na <a class="reference internal" href="#carac-abf"><span class="std std-numref">Fig. 24</span></a> são apresentados os espectros simulados de FTIR, <sup>13</sup>C RMN e difração de raios-x e espectro de absorção no UV-VIS para o ABF-Carbon, na esperança de que sejam úteis no auxílio da caracterização de possíveis candidatos. O espectro de FTIR (<a class="reference internal" href="#carac-abf"><span class="std std-numref">Fig. 24</span></a>-<em>a</em>) apresenta um pico principal em 1391 cm<sup>-1</sup> devido ao modo vibracional com simetria B<sub>2</sub> e um pico  em 927 cm<sup>-1</sup> devido a outro modo B<sub>2</sub>. O espectro de <sup>13</sup>C RMN, mostrado na <a class="reference internal" href="#carac-abf"><span class="std std-numref">Fig. 24</span></a>-<em>b</em>, apresenta três deslocamentos químicos diferentes: 128.5 ppm para o átomo C1, 44.2 ppm para o átomo C2 e 39.2 para o átomo C3. O espectro de difração de raios-X, apresentado na <a class="reference internal" href="#carac-abf"><span class="std std-numref">Fig. 24</span></a>-<em>c</em>, calculado para comprimento de onda de 1.54059 Å apresenta um pico principal em 25.5° referente ao plano de Bragg (101) e picos menores em 20.3° e 33.2°, referentes aos planos (002) e (110), respectivamente. O espectro de absorção na região do UV-VIS apresenta bandas em 280, 320, 480 e 960 nm, indicando grande potencial para aplicações que dependam de absorção de luz em regiões no espectro visível e próximas. Essa estrutura não apresentam poros com tamanho suficiente para ser acessível a nenhum átomo ou molécula.</p>
+<div class="figure align-default" id="carac-abf">
+<img alt="../../_images/characterization1.png" src="../../_images/characterization1.png" />
+<p class="caption"><span class="caption-number">Fig. 24 </span><span class="caption-text">Gráficos dos espectros calculados de (a) FTIR (Lorentziana com 10 cm<sup>-1</sup> de largura); (b) deslocamentos químicos isotrópicos de <sup>13</sup>C RMN (Lorentziana com 1 ppm de largura); (c) Difratograma de raios-X; (d) Espectro de absorção UV-VIS (Lorentziana com 0.02 Ry de largura)</span><a class="headerlink" href="#carac-abf" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="conclusoes">
+<h3>Conclusões<a class="headerlink" href="#conclusoes" title="Permalink to this headline">¶</a></h3>
+<p>Nesta seção foi apresentado um novo alótropo de carbono, denominado ABF-Carbon, formado pela conexão de unidades <em>spiro</em> por átomos de carbono sp<sup>3</sup>. Com base nos resultados apresentados é possível concluir que essa nova estrutura é estável, pois não apresenta frequências negativas na dispersão de fônons e sua matriz elástica satisfaz os critérios de estabilidade de Born. Diferentemente do Spiro-Carbon, essa estrutura apresenta um caráter semicondutor, com <em>band gap</em> de 2.4 eV. Além disso, ela apresenta menor energia de formação que outras estruturas alotrópicas tridimensionais, encorajando possíveis tentativas de síntese.</p>
+<p>Os resultados discutidos nesta seção resultaram na publicação do artigo:</p>
+<blockquote>
+<div><p>Oliveira, F. L., &amp; Esteves, P. M. (2021). First-Principles Calculations of a New Semi-Conductive Carbon Allotrope Named ABF-Carbon. <strong>Journal of the Brazilian Chemical Society</strong>, 32, 869-877.</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./capitulos\results2"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="../results1/results1.html" title="previous page">Novos Alótropos de Carbono: Spiro-Carbon</a>
+    <a class='right-next' id="next-link" href="../results3/results3.html" title="next page">Gerando novos alótropos</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Felipe Lopes de Oliveira<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+    
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+
+    
+  </body>
+</html>
