@@ -1,0 +1,21 @@
+{
+  "system":{
+    "description":"Informations about the system such as name, if it is optimized and other relevant information.",
+    "name":"capitulos"
+  },
+  "geometry":{
+    "description":"Informations about the geometry: cell parameters, cell matrix, atomic positions, partial charges, bond orders, simmetry information"
+  },
+  "optimization":{
+    "description":"Information about the optimization process such as level of calculations, optimization schema and optimization steps."
+  },
+  "adsorption":{
+    "description":"Information about the adsorption simulation experiments on RASPA2"
+  },
+  "textural":{
+    "description":"Information about the textural calculations of the structure such as specific area, pore volume, void fraction."
+  },
+  "spectrum":{
+    "description":"Information about spectra simulation like DRX, FTIR, ssNMR, UV-VIS, Band dispersion, Phonon dispersion..."
+  }
+}
